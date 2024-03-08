@@ -1,13 +1,13 @@
-package Exerc02;
+package ListaExerc1;
 
 import java.util.Scanner;
 
-public class Exerc {
-    
-    public static void main(String args[]){
-        System.out.println("Hello, World");
-        //declaração de variaveis:
+public class Exerc12 {
+    public static void main(String[] args) {
+        
         Scanner sc = new Scanner(System.in);
+
+        //declaração de variaveis:
         //float: 4 bytes, double: 8 bytes
         double x1, x2, y1, y2; // Variaveis de entrada
         double distancia; // variavel de saida
@@ -31,6 +31,8 @@ public class Exerc {
         System.out.printf(
             "A distancia entre p1(%.2f %.2f) e p2(%.2f, %.2f) é: %.2f",
             x1, y1, x2, y2, distancia);
-            sc.close();
+
+
+        sc.close();
     }
 }
