@@ -1,6 +1,6 @@
 import java.util.Random;
 
-public class Alea{
+public class RoletaRussa{
 
     public static void main(String[] args) {
 

@@ -1,3 +1,4 @@
+package Inicio;
 import javax.swing.JOptionPane;
 
     public class SomaDoisNumeros {
